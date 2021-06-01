@@ -1,0 +1,24 @@
+Clipboard Data: 
+C:\Users\HI\PycharmProjects\Keylogger\project
+Clipboard Data: 
+C:\Users\HI\PycharmProjects\Keylogger\project
+Clipboard Data: 
+file_path + extend + screenshot_information
+Clipboard Data: 
+file_path + extend + screenshot_information
+Clipboard Data: 
+win32c
+Clipboard Data: 
+win32c
+Clipboard Data: 
+win32c
+Clipboard Data: 
+win32c
+Clipboard Data: 
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8
+Clipboard Data: 
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8
+Clipboard Data: 
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8
+Clipboard Data: 
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8

@@ -1,0 +1,6 @@
+Couldn't find public ip address
+System:Windows
+Processor:Intel64 Family 6 Model 58 Stepping 9, GenuineIntel  version:10.0.19041
+Machine:AMD64
+Hostname:HI-PC
+Private IP:192.168.1.7
