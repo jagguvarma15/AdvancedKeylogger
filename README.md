@@ -1,7 +1,8 @@
 # Gathering various information using a Spyware Program - Advanced Keylogger
 <html>
 <body>
-   ![image](https://user-images.githubusercontent.com/79473081/166476578-f437b88d-3511-437f-9b6c-9a5ada8877f3.png)
+   ![166476578-f437b88d-3511-437f-9b6c-9a5ada8877f3](https://user-images.githubusercontent.com/79473081/166476816-b5ca487a-27f6-44fe-a3ed-ea566c3d165c.png)
+
 
 <h2>What is Keylogger?</h2>
 <p>A Spyware computer program that records every keystroke made by a computer user, especially in order to gain fraudulent access to passwords and other confidential information.</p>
