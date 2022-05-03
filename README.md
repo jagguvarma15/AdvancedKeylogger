@@ -26,7 +26,7 @@ Requirements :<br>
         <li>socket</li>
         <li>smtplib</li>
   </ul>
-    <h3>CREATING FILES AND APPENDING TO FILES</h3>
+    <h2>CREATING FILES AND APPENDING TO FILES</h2>
 <p>For multiple parts of the keylogger, we will be appending data to files. Before we append data to files,
 we must first create variables with the proper extensions. Here are the variables you will need with the
     proper extensions.</p>
@@ -44,11 +44,11 @@ we must first create variables with the proper extensions. Here are the variable
 <br>
     <p>To open and append to files, use the with <code>open(file_path, “a”) as f</code></p>
     <p>To write to the file, simply use the <code>f.write(data)</code> method</p>
-    
+<h2>Keystrokes</h2>   
 <h4>To log keys using python, we will be using the pynput module.</h4>
 Module to install:<br>
     <code>from pynput.keyboard import Key, Listener</code><br>
-    
+<h2>E-Mail</h2>    
 <h4>To add an email functionality, we will be using the email module.</h4>
 Modules to install:<br>
     <code>from email.mime.multipart import MIMEMultipart</code><br>
@@ -57,28 +57,32 @@ Modules to install:<br>
 <code>from email import encoders</code><br>
 <code>import smtplib</code><br>
 
+<h2>System</h2>
 <h4>To gather computer information, we will use socket and platform modules.</h4>
 Modules to install:<br>
 <code>import socket</code><br>
 <code>import platform</code>
 
+<h2>Clipboard</h2>
 <h4>To get the clipboard information, we will be using the win32clipboard module, which is a submodule of
 pywin32.</h4>
 Module to install:<br>
 <code>import win32clipboard</code>
 
+<h2>Microphone</h2>
 <h4>To record with microphone, we will be using the sounddevice module and writing to a .wav file using the
 scipy.io.wavefile module.</h4>
 Module to install:<br>
-
 <code>from scipy.io.wavfile import write</code><br>
 <code>import sounddevice as sd</code>
 
+<h2>Screenshot</h2>
 <h4>To take a screenshot, we will use the ImageGrab from the Pillow Module</h4>
 Modules to install:<br>
 <code>from multiprocessing import Process, freeze_support</code><br>
 <code>from PIL import ImageGrab</code>
-    
+
+<h3>Build a Timer !</h3>
  <h4>To build a timer which goes through a certain number of iterations before the keylogger ends, we will be using the
      timer function</h4>
 <h5>Use the following process:</h5>
@@ -102,7 +106,8 @@ variable (stoppingTime = time.time() + time_iteration)<br>
     <li>Get new stopping time</li>
 </ul>
 
-    <h4>To encrypt files, we will use the cryptography.fernet module</h4>
+<h2>Encryption-Decryption</h2>
+<h4>To encrypt files, we will use the cryptography.fernet module</h4>
 Module to import:<br>
     <code>from cryptography.fernet import Fernet</code>
 
