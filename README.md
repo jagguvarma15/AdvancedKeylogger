@@ -6,9 +6,11 @@
 
 <h2>What is Keylogger?</h2>
 <p>A Spyware computer program that records every keystroke made by a computer user, especially in order to gain fraudulent access to passwords and other confidential information.</p>
-<p>Keyloggers are built for the act of keystroke logging — creating records of everything you type on a computer or mobile keyboard. These are used to quietly monitor your computer activity while you use your devices as normal. Keyloggers are used for legitimate purposes like feedback for software development but can be misused by criminals to steal your data.</p>
+<p>Keylogging is the action of capturing and recording keys struck on a keyboard. A keylogger is a program which captures and monitors all keylogs. Keyloggers can be both in the form of a built software program or directly downloaded onto a hardware module.</p>
+
+<p>Now we need to build a keylogger in python which logs keys, gathers computer information, network information, gets the clipboard content, records the user microphone, and take screenshots of a computer screen.</p>
     
-<p>An advanced keylogger targets computer memory to function while remaining invisible. In this repository we're gonna design an advanced keylogger which captures various kinds of information, encrypts the data and sends those files as an email with decryption key to the target at defined intervals.</p>
+<p>An advanced keylogger targets computer memory to function while remaining invisible. In this repository this advanced keylogger which captures various kinds of information, encrypts the data and sends those files as an email with decryption key to the target at defined intervals.</p>
 
 <h3><b>Getting Started : Python, PyCharm and Modules</h3></b> 
 
