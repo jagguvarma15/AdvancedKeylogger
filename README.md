@@ -1,7 +1,15 @@
-# Gathering various information using a Spyware Program
+# Gathering various information using a Spyware Program - Advanced Keylogger
 <html>
 <body>
-    <h3><b>Getting Started : Python, PyCharm and Modules</h3></b> 
+   ![image](https://user-images.githubusercontent.com/79473081/166476578-f437b88d-3511-437f-9b6c-9a5ada8877f3.png)
+
+<h2>What is Keylogger?</h2>
+<p>A Spyware computer program that records every keystroke made by a computer user, especially in order to gain fraudulent access to passwords and other confidential information.</p>
+<p>Keyloggers are built for the act of keystroke logging — creating records of everything you type on a computer or mobile keyboard. These are used to quietly monitor your computer activity while you use your devices as normal. Keyloggers are used for legitimate purposes like feedback for software development but can be misused by criminals to steal your data.</p>
+    
+<p>An advanced keylogger targets computer memory to function while remaining invisible. In this repository we're gonna design an advanced keylogger which captures various kinds of information, encrypts the data and sends those files as an email with decryption key to the target at defined intervals.</p>
+
+<h3><b>Getting Started : Python, PyCharm and Modules</h3></b> 
 
 <p>Before starting to write the code you really need to install the requirements mentioned below.</p>
 
@@ -12,19 +20,14 @@ Requirements :<br>
 
   <b>Python Modules</b><br>
     <ul>
-        <li>win32clipboard</li>
+        <li>pywin32</li>
         <li>pynput</li>
         <li>scipy</li>
         <li>cryptography</li>
         <li>requests</li>
         <li>pillow</li>
         <li>sounddevice</li>
-        <li>email</li>
-        <li>os</li>
-        <li>time</li>
-        <li>multiprocessing</li>
-        <li>socket</li>
-        <li>smtplib</li>
+        
   </ul>
     <h2>CREATING FILES AND APPENDING TO FILES</h2>
 <p>For multiple parts of the keylogger, we will be appending data to files. Before we append data to files,
@@ -82,7 +85,7 @@ Modules to install:<br>
 <code>from multiprocessing import Process, freeze_support</code><br>
 <code>from PIL import ImageGrab</code>
 
-<h3>Build a Timer !</h3>
+<h3>Build a Timer!</h3>
  <h4>To build a timer which goes through a certain number of iterations before the keylogger ends, we will be using the
      timer function</h4>
 <h5>Use the following process:</h5>
@@ -109,7 +112,10 @@ variable (stoppingTime = time.time() + time_iteration)<br>
 <h2>Encryption-Decryption</h2>
 <h4>To encrypt files, we will use the cryptography.fernet module</h4>
 Module to import:<br>
-    <code>from cryptography.fernet import Fernet</code>
+    <code>from cryptography.fernet import Fernet</code><br>
+<br>
+<br>
 
+<b><i>Credits: Grant_Collins - Cyberacademy 2020</i></b>
   </body>
   </html>
