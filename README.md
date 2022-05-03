@@ -45,18 +45,66 @@ we must first create variables with the proper extensions. Here are the variable
     <p>To open and append to files, use the with <code>open(file_path, “a”) as f</code></p>
     <p>To write to the file, simply use the <code>f.write(data)</code> method</p>
     
-    <p>To log keys using python, we will be using the pynput module.</p>
+<h4>To log keys using python, we will be using the pynput module.</h4>
 Module to install:<br>
     <code>from pynput.keyboard import Key, Listener</code><br>
     
-    <p>To add an email functionality, we will be using the email module.</p>
+<h4>To add an email functionality, we will be using the email module.</h4>
 Modules to install:<br>
     <code>from email.mime.multipart import MIMEMultipart</code><br>
     <code>from email.mime.text import MIMEText</code><br>
 <code>from email.mime.base import MIMEBase</code><br>
 <code>from email import encoders</code><br>
 <code>import smtplib</code><br>
+
+<h4>To gather computer information, we will use socket and platform modules.</h4>
+Modules to install:<br>
+<code>import socket</code><br>
+<code>import platform</code>
+
+<h4>To get the clipboard information, we will be using the win32clipboard module, which is a submodule of
+pywin32.</h4>
+Module to install:<br>
+<code>import win32clipboard</code>
+
+<h4>To record with microphone, we will be using the sounddevice module and writing to a .wav file using the
+scipy.io.wavefile module.</h4>
+Module to install:<br>
+
+<code>from scipy.io.wavfile import write</code><br>
+<code>import sounddevice as sd</code>
+
+<h4>To take a screenshot, we will use the ImageGrab from the Pillow Module</h4>
+Modules to install:<br>
+<code>from multiprocessing import Process, freeze_support</code><br>
+<code>from PIL import ImageGrab</code>
     
-    
+ <h4>To build a timer which goes through a certain number of iterations before the keylogger ends, we will be using the
+     timer function</h4>
+<h5>Use the following process:</h5>
+1. Create an iterations variable and set its value to zero (iterations = 0)<br>
+2. Create an end_iterations variable which sets to a certain amount of iterations before ending the
+keylogger (end_iterations = 5)<br>
+3. Get the current time using the time.time() function, set this equal to a variable (currentTime =
+time.time())<br>
+4. Create a time_iteration variable which collects the keylogs for a certain period of time in seconds
+(time_iteration = 15)<br>
+5. Get the stoppingTime by adding the time.time() function + time_iteration to stop, set this equal to a
+variable (stoppingTime = time.time() + time_iteration)<br>
+6. while iterations is less than (<) the ending_iterations… log keys<br>
+7. If the current time is greater than (>) the stopping time.<br>
+<ul>    
+    <li>Take a screenshot</li>
+    <li>Send screenshot to email</li>
+    <li>Gather clipboard contents</li>
+    <li>Add 1 to iterations variable</li>
+    <li>Get new current time</li>
+    <li>Get new stopping time</li>
+</ul>
+
+    <h4>To encrypt files, we will use the cryptography.fernet module</h4>
+Module to import:<br>
+    <code>from cryptography.fernet import Fernet</code>
+
   </body>
   </html>
