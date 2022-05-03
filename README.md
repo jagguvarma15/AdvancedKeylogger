@@ -1,7 +1,7 @@
 # Gathering various information using a Spyware Program - Advanced Keylogger
 <html>
 <body>
-   ![166476578-f437b88d-3511-437f-9b6c-9a5ada8877f3](https://user-images.githubusercontent.com/79473081/166476816-b5ca487a-27f6-44fe-a3ed-ea566c3d165c.png)
+   ![166476578-f437b88d-3511-437f-9b6c-9a5ada8877f3](https://user-images.githubusercontent.com/79473081/166477261-72b18fdb-30ce-4ab6-a98c-6a29622b1f23.png)
 
 
 <h2>What is Keylogger?</h2>
